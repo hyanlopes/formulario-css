@@ -1,0 +1,12 @@
+input:hover::placeholder {
+    padding-left: 10px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  input:focus::placeholder {
+    opacity: 0;
+  }
+  input:invalid {
+      border: 2px solid red;
+  }
